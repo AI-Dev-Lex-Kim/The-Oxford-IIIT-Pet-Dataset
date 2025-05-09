@@ -1,0 +1,12 @@
+project_root: "/content/drive/Othercomputers/내 MacBook Air/Documents/ai_project/mission7"
+
+train:
+  seed: 42
+  batch_size: 32
+  num_workers: 2
+  epochs: 4
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  lr_scheduler:
+    step_size: 5
+    gamma: 0.1
